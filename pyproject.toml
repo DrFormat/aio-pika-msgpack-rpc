@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aio-pika-msgpack-rpc"
+version = "1.0.2"
+authors = [
+  { name="DrFormatC", email="formacevt@bk.ru" },
+]
+description = "aio-pika-msgpack-rpc"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'aio-pika >= 8.2.4',
+  'msgpack >= 1.0.2',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DrFormat/aio-pika-msgpack-rpc"
+"Bug Tracker" = "https://github.com/DrFormat/aio-pika-msgpack-rpc/issues"
